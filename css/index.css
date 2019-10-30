@@ -1,0 +1,33 @@
+h1 {
+    background-color: teal;
+    color:sandybrown;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+p {
+    background-color: turquoise;
+    color: midnightblue;
+    margin: 0px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.black {
+    color:black;
+}
+
+#chosen {
+    border: 3px solid sandybrown;
+    margin: -10px;
+
+}
+p:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
